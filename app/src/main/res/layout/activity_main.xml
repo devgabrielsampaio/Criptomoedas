@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#230101"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/principal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/logo2" />
+
+    <EditText
+        android:id="@+id/edit1"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/principal"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40sp"
+        android:textColor="#230101" />
+    <Button
+        android:id="@+id/button1"
+        style="@style/Button"
+        android:text="Pesquisar"
+        android:drawableRight="@drawable/ic_baseline_find_in_page_24"
+        android:textColor="#230101"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:id="@+id/view1"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        android:textColor="#230101" />
+</RelativeLayout>
